@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.Gold;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -65,6 +65,7 @@ public class Main_1753 {
             if(dist[nextNode] > dist[now] + nextCost) {
                 dist[nextNode] = dist[now] + nextCost;
                 queue.add(new int[]{nextNode,dist[nextNode]});
+
             }
             }
 
