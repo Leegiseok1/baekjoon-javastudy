@@ -119,6 +119,8 @@ static     class   Node {
                 } else
                 { dq.addFirst(new Node(ny,nx,nextCost));
 
+                    
+
                 }
             }
 

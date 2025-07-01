@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.Bronze;
 import java.util.*;
 public class Main_2869 {
     public static void main(String[] args) {
